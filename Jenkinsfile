@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('myStage'){
             steps {
-                sh 'ls' 
+                sh 'ls -la' 
             }
         }
         stage('Build') {
