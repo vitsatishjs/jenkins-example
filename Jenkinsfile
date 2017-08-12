@@ -2,10 +2,14 @@ pipeline {
     agent any
     stages {
         stage('myStage'){
-            steps { dir }
+            steps {
+                bat 'set'
+            }
         }
         stage('Build') {
-            steps { dir }
+            steps { 
+                bat 'set'
+            }
         }
     }
 }
