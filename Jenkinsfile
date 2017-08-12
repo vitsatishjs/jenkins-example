@@ -2,17 +2,13 @@ pipeline {
     agent any
     stages {
         stage('myStage'){
-            steps{
-                sh 'echo "Just testing!"'
+            steps {
+                bat 'set'
             }
         }
         stage('Build') {
-            steps {
-                sh 'echo "Hello World"'
-                sh '''
-                    echo "Multiline shell steps works too"
-                    ls -lah
-                '''
+            steps { 
+                bat 'set'
             }
         }
     }
