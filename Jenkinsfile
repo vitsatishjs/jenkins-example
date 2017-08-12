@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('myStage'){
             steps {
-                bat 'set'
+                echo 'ls'
             }
         }
         stage('Build') {
             steps { 
-                bat 'set'
+                echo 'ls' 
             }
         }
     }
