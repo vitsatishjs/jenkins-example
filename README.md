@@ -1,3 +1,3 @@
 # jenkins-example
 
-Now we can write our actual README file for real.
+Now we can write our actual README file for realsies.
