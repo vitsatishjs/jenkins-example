@@ -3,12 +3,14 @@ pipeline {
     stages {
         stage('myStage'){
             steps {
-                sh 'ls -la' 
+                bat 'echo "hello myStage"'
+                bat 'dir' 
             }
         }
         stage('Build') {
             steps { 
-                sh 'ls' 
+                bat 'echo "hello build"'
+                bat 'dir' 
             }
         }
     }
